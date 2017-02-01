@@ -6,7 +6,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    public String showStrig;
+    public String showString;
     public TextView showText;
     public barang [] arrBarang = new barang[10];
 
@@ -17,14 +17,20 @@ public class MainActivity extends AppCompatActivity {
         showText = (TextView) findViewById(R.id.show_text);
 
 
-        showStrig = "manipulasi Class Java Android";
+        showString = "manipulasi Class Java Android";
         addseparator();
 
         initBarang();
-        showStrig += arrBarang[5].toString();
-        addseparator();
-        showStrig += arrBarang[2].toString();
-        showText.setText(showStrig);
+        // showString += arrBarang[5].toString();
+       //  addseparator();
+        //showString += arrBarang[2].toString();
+        //showText.setText(showString);
+        transaksi trans1 =new transaksi();
+        trans1.addBarang(arrBarang)[3]);
+        trans1.addBarang(arrBarang)[7]);
+        trans1.addBarang(arrBarang)[1]);
+        showString +=trans1.printTransaksi();
+        showText.setText(showString);
     }
     public void addseparator(){
         showStrig += "\n---------------------------------------------\n";

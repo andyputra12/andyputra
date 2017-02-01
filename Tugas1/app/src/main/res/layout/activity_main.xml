@@ -21,7 +21,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="A22.2015.024811"
+        android:text="A22.2015.02481"
         android:id="@+id/textView"
         android:layout_below="@+id/textView2"
         android:layout_centerHorizontal="true"
@@ -41,26 +41,18 @@
         android:layout_height="wrap_content"
         android:id="@+id/imageView"
         android:src="@drawable/jj"
-        android:layout_centerVertical="true"
+        android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Moto Hidup : Gk Ada"
+        android:text="Moto Hidup : ingin selalu sukses "
         android:id="@+id/textView4"
         android:layout_alignBottom="@+id/imageView"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="34dp"
         android:textSize="18dp" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Cita Cita Setelah lulus : GK ADA"
-        android:id="@+id/textView5"
-        android:layout_below="@+id/textView4"
-        android:layout_centerHorizontal="true"
-        android:textSize="18dp" />
 </RelativeLayout>
